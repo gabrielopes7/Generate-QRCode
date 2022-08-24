@@ -22,6 +22,7 @@ function App() {
         <input
           placeholder="Digite sua URL"
           className="inputURL"
+          value={link}
           onChange={(event) => handleURL(event)}
         ></input>
       </main>
